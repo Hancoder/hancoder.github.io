@@ -14,17 +14,19 @@
 <meta name="author" content="芽芽与健健" />
 
 
-    
-    
 
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="芽芽与尖尖的小故事">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="jQueryjQuery简介JavaScript库的概念 JavaScript库 把一些浏览器兼容性，或者是一些常用的函数封装到一个js文件中，就是JavaScript库 我们自己封装的animate.js，就是JavaScript库   常见的JavaScript库： jQuery、Prototype、MooTools 其中jQuery使用最流行 2011年统计有50%以上的网站使用jQuery">
+<meta name="keywords" content="选择器,样式操作,节点操作,事件机制">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jQuery整合">
+<meta property="og:url" content="http://yoursite.com/2018/04/25/jQuery/index.html">
 <meta property="og:site_name" content="芽芽与尖尖的小故事">
+<meta property="og:description" content="jQueryjQuery简介JavaScript库的概念 JavaScript库 把一些浏览器兼容性，或者是一些常用的函数封装到一个js文件中，就是JavaScript库 我们自己封装的animate.js，就是JavaScript库   常见的JavaScript库： jQuery、Prototype、MooTools 其中jQuery使用最流行 2011年统计有50%以上的网站使用jQuery">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-05-28T16:22:57.877Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="芽芽与尖尖的小故事">
+<meta name="twitter:title" content="jQuery整合">
+<meta name="twitter:description" content="jQueryjQuery简介JavaScript库的概念 JavaScript库 把一些浏览器兼容性，或者是一些常用的函数封装到一个js文件中，就是JavaScript库 我们自己封装的animate.js，就是JavaScript库   常见的JavaScript库： jQuery、Prototype、MooTools 其中jQuery使用最流行 2011年统计有50%以上的网站使用jQuery">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -52,13 +54,11 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <style> .article { opacity: 0;} </style>
-
 
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>芽芽与尖尖的小故事</title>
+<title>jQuery整合 | 芽芽与尖尖的小故事</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -67,8 +67,8 @@
     var yiliaConfig = {
         fancybox: true,
         animate: true,
-        isHome: true,
-        isPost: false,
+        isHome: false,
+        isPost: true,
         isArchive: false,
         isTag: false,
         isCategory: false,
@@ -258,9 +258,7 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-jQuery" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-jQuery" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2018/04/25/jQuery/" class="article-date">
@@ -278,12 +276,27 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/25/jQuery/">jQuery整合</a>
+    <h1 class="article-title" itemprop="name">
+      jQuery整合
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/JS类库/">JS类库</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/事件机制/">事件机制</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/样式操作/">样式操作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/节点操作/">节点操作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/选择器/">选择器</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -845,27 +858,74 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/JS类库/">JS类库</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/事件机制/">事件机制</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/样式操作/">样式操作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/节点操作/">节点操作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/选择器/">选择器</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2018/04/25/jQuery/">jQuery整合</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">芽芽与健健</a></p>
+        <p><span>发布时间:</span>2018-04-25, 19:30:18</p>
+        <p><span>最后更新:</span>2018-05-29, 00:22:57</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2018/04/25/jQuery/" title="jQuery整合">http://yoursite.com/2018/04/25/jQuery/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/04/25/jQuery/　　作者: 芽芽与健健" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#jQuery"><span class="toc-number">1.</span> <span class="toc-text">jQuery</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery简介"><span class="toc-number">1.1.</span> <span class="toc-text">jQuery简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaScript库的概念"><span class="toc-number">1.1.1.</span> <span class="toc-text">JavaScript库的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery-1"><span class="toc-number">1.1.2.</span> <span class="toc-text">jQuery</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery的优点"><span class="toc-number">1.1.3.</span> <span class="toc-text">jQuery的优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery的版本"><span class="toc-number">1.1.4.</span> <span class="toc-text">jQuery的版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#体验jQuery"><span class="toc-number">1.1.5.</span> <span class="toc-text">体验jQuery</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery中顶级对象"><span class="toc-number">1.1.6.</span> <span class="toc-text">jQuery中顶级对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery中页面加载事件"><span class="toc-number">1.1.7.</span> <span class="toc-text">jQuery中页面加载事件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery对象和DOM对象"><span class="toc-number">1.2.</span> <span class="toc-text">jQuery对象和DOM对象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#DOM对象"><span class="toc-number">1.2.1.</span> <span class="toc-text">DOM对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery对象"><span class="toc-number">1.2.2.</span> <span class="toc-text">jQuery对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery对象和DOM对象的区别"><span class="toc-number">1.2.3.</span> <span class="toc-text">jQuery对象和DOM对象的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery对象和DOM对象的相互转换"><span class="toc-number">1.2.4.</span> <span class="toc-text">jQuery对象和DOM对象的相互转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例"><span class="toc-number">1.2.5.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#选择器"><span class="toc-number">1.3.</span> <span class="toc-text">选择器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery基本选择器"><span class="toc-number">1.3.1.</span> <span class="toc-text">jQuery基本选择器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery层级选择器"><span class="toc-number">1.3.2.</span> <span class="toc-text">jQuery层级选择器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery过滤选择器"><span class="toc-number">1.3.3.</span> <span class="toc-text">jQuery过滤选择器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery筛选选择器-方法"><span class="toc-number">1.3.4.</span> <span class="toc-text">jQuery筛选选择器(方法)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-1"><span class="toc-number">1.3.5.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery样式操作"><span class="toc-number">1.4.</span> <span class="toc-text">jQuery样式操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS操作"><span class="toc-number">1.4.1.</span> <span class="toc-text">CSS操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#class操作"><span class="toc-number">1.4.2.</span> <span class="toc-text">class操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-2"><span class="toc-number">1.4.3.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery动画"><span class="toc-number">1.5.</span> <span class="toc-text">jQuery动画</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#三组基本动画"><span class="toc-number">1.5.1.</span> <span class="toc-text">三组基本动画</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#自定义动画"><span class="toc-number">1.5.2.</span> <span class="toc-text">自定义动画</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动画队列与停止动画"><span class="toc-number">1.5.3.</span> <span class="toc-text">动画队列与停止动画</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-3"><span class="toc-number">1.5.4.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery节点操作"><span class="toc-number">1.6.</span> <span class="toc-text">jQuery节点操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建节点"><span class="toc-number">1.6.1.</span> <span class="toc-text">创建节点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加节点"><span class="toc-number">1.6.2.</span> <span class="toc-text">添加节点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#清空节点与删除节点"><span class="toc-number">1.6.3.</span> <span class="toc-text">清空节点与删除节点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#克隆节点"><span class="toc-number">1.6.4.</span> <span class="toc-text">克隆节点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-4"><span class="toc-number">1.6.5.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery操作属性"><span class="toc-number">1.7.</span> <span class="toc-text">jQuery操作属性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#attr操作"><span class="toc-number">1.7.1.</span> <span class="toc-text">attr操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#prop操作"><span class="toc-number">1.7.2.</span> <span class="toc-text">prop操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#val-text-html"><span class="toc-number">1.7.3.</span> <span class="toc-text">val()/text/()html()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-5"><span class="toc-number">1.7.4.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery尺寸和位置操作"><span class="toc-number">1.8.</span> <span class="toc-text">jQuery尺寸和位置操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#width方法与height方法"><span class="toc-number">1.8.1.</span> <span class="toc-text">width方法与height方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#innerWidth-innerHeight-outerWidth-outerHeight"><span class="toc-number">1.8.2.</span> <span class="toc-text">innerWidth/innerHeight/outerWidth/outerHeight</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#scrollTop与scrollLeft"><span class="toc-number">1.8.3.</span> <span class="toc-text">scrollTop与scrollLeft</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#offset方法与position方法"><span class="toc-number">1.8.4.</span> <span class="toc-text">offset方法与position方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery事件机制"><span class="toc-number">1.9.</span> <span class="toc-text">jQuery事件机制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery事件发展历程-了解"><span class="toc-number">1.9.1.</span> <span class="toc-text">jQuery事件发展历程(了解)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#on注册事件-重点"><span class="toc-number">1.9.2.</span> <span class="toc-text">on注册事件(重点)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事件解绑"><span class="toc-number">1.9.3.</span> <span class="toc-text">事件解绑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#触发事件"><span class="toc-number">1.9.4.</span> <span class="toc-text">触发事件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jQuery事件对象"><span class="toc-number">1.9.5.</span> <span class="toc-text">jQuery事件对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-6"><span class="toc-number">1.9.6.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery补充知识点"><span class="toc-number">1.10.</span> <span class="toc-text">jQuery补充知识点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#链式编程"><span class="toc-number">1.10.1.</span> <span class="toc-text">链式编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#each方法"><span class="toc-number">1.10.2.</span> <span class="toc-text">each方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#多库共存"><span class="toc-number">1.10.3.</span> <span class="toc-text">多库共存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#案例-7"><span class="toc-number">1.10.4.</span> <span class="toc-text">案例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#插件"><span class="toc-number">1.11.</span> <span class="toc-text">插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#常用插件"><span class="toc-number">1.11.1.</span> <span class="toc-text">常用插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#自己探索插件"><span class="toc-number">1.11.2.</span> <span class="toc-text">自己探索插件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jQuery插件开发"><span class="toc-number">1.12.</span> <span class="toc-text">jQuery插件开发</span></a></li></ol></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"jQuery整合　| 芽芽与尖尖的小故事　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
 
 
 
@@ -873,9 +933,31 @@
 
 
 
+    
 
-  
-  
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/04/25/jQuery/">jQuery整合</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
